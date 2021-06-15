@@ -12,10 +12,6 @@
       href="./assets/favicon-32x32.png"
     />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
-
     <title>Frontend Mentor | Stats preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -24,11 +20,48 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
    -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
-    <div class="content card">
+    <div class="card">
+      <img
+        class="image-header-mobile"
+        alt="People talking"
+        src="assets/image-header-mobile.jpg"
+      />
+
+      <img
+        class="image-header-desktop"
+        alt="People talking"
+        src="assets/image-header-desktop.jpg"
+      />
+
+      <div class="info">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+
+        <p class="description">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <div class="main-stats">
+          <div class="stat">
+            <h2 class="numbers">10k+</h2>
+            <p class="object">companies</p>
+          </div>
+          <div class="stat">
+            <h2 class="numbers">314</h2>
+            <p class="object">templates</p>
+          </div>
+          <div class="stat">
+            <h2 class="numbers">12m+</h2>
+            <p class="object">queries</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="content card">
       <div class="text-info">
         <h1 class="title white">
           Get <span class="soft-violet">insights</span> that help
@@ -65,6 +98,6 @@
       <div class="image-info">
         <img alt="people talking" src="./assets/image-header-desktop.jpg" class="img"></img>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
