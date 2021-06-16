@@ -76,6 +76,32 @@ body {
   color: var(--stat-headings-color);
 }
 
+.attribution {
+  padding: 1em 1.5em 3em 1.5em;
+  height: 40px;
+  background-color: var(--main-paragraph-color);
+  border-radius: 2em 0 4em 0;
+}
+
+.attribution img {
+  padding-left: 1em;
+}
+
+@media only screen and (min-width: 400px) {
+  .attribution {
+    padding: 1em 1.5em 3em 1.5em;
+    position: absolute;
+    right: 0;
+    max-width: 350px;
+    height: 25px;
+    background-color: var(--main-paragraph-color);
+    border-radius: 2em 0 4em 0;
+  }
+  .attribution img {
+    padding-left: 1em;
+  }
+}
+
 @media only screen and (min-width: 700px) {
   .card {
     margin: 8em;
